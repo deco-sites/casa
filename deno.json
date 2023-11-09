@@ -10,13 +10,15 @@
     "update": "deno eval 'import \"deco/scripts/update.ts\"'",
     "install": "deno eval 'import \"deco/scripts/apps/install.ts\"'",
     "uninstall": "deno eval 'import \"deco/scripts/apps/uninstall.ts\"'",
-    "bundle": "deno eval 'import \"deco/scripts/apps/bundle.ts\"' deco-sites/bf-thealfred"
+    "bundle": "deno eval 'import \"deco/scripts/apps/bundle.ts\"' deco-sites/casa"
   },
   "githooks": { "pre-commit": "check" },
   "exclude": ["node_modules", "static/", "README.md", "**/_fresh/*"],
   "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
   "imports": {
-    "deco-sites/bf-thealfred/": "./",
+    "deco-sites/casa/": "./",
+
+    "deco-sites/casa/": "./",
     "deco-sites/start/": "./",
     "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.22.11/",
     "$live/": "https://denopkg.com/deco-cx/live@1.45.8/",
