@@ -30,17 +30,24 @@ function ProductCard({ product }: Props) {
     }).format(price);
   };
 
+  const url = product.isVariantOf?.url.split("/");
+
   return (
     <div className="w-[297px] shrink-0 rounded-md bg-white select-none">
-      <a href={product.isVariantOf?.url}>
+      <a
+        href={"https://www.casamaisfacil.com.br/" + url[url.length - 2] + "/" +
+          url[url.length - 1]}
+        target="_blank"
+      >
         <div className="relative mb-1">
           <Image
+            style={{ aspectRatio: "500 / 500" }}
             src={images?.[0]?.url || ""}
             alt={product.isVariantOf?.name}
             title={product.isVariantOf?.name}
             loading="lazy"
-            width={297}
-            height={445}
+            width={500}
+            height={500}
             className="rounded-t-md h-full object-cover" // Use 'className' em vez de 'class'
           />
         </div>
@@ -67,10 +74,9 @@ function ProductCard({ product }: Props) {
               : null}
           </span>
           <div className="my-1 flex flex-col">
-            <span className="text-purple-600 font-semibold text-left">
+            <span className="text-black bg-yellow-400 py-1 px-3 rounded-md text-xs font-bold font-semibold text-left">
               Black Friday
             </span>
-            <span className="text-red-600 font-semibold text-left">Outlet</span>
           </div>
         </div>
       </a>

@@ -54,7 +54,9 @@ const BlackFridayDescription = ({
       <div className="text-center mt-11">
         <p className="text-white my-2 2xl:text-6xl xl:text-5xl  md:text-4xl sm:text-3xl text-2xl font-bold tracking-[0.4em]">
           {subtitle.largerText.text}{" "}
-          <span className="text-red-800">{subtitle.largerText.markedText}</span>
+          <span className="text-yellow-400">
+            {subtitle.largerText.markedText}
+          </span>
         </p>
         <p className="text-white 2xl:text-2xl xl:text-xl md:text-lg font-medium tracking-[0.1em]">
           {subtitle.smallerText.text}

@@ -55,7 +55,6 @@ const BenefitBar = ({
     topMarkedText: "OFERTAS COM ATÉ",
     bottomText: "60% DE DESCONTO",
     bottomMarkedText: "NA BF23",
-    // image: "/freightIcon.png",
   },
 }: Props) => {
   return (

@@ -3,22 +3,22 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $$$$$$0 from "./sections/BestDiscounts.tsx";
-import * as $$$$$$1 from "./sections/Home.tsx";
-import * as $$$$$$2 from "./sections/DiscountsByCategory.tsx";
-import * as $$$$$$3 from "./sections/Theme.tsx";
-import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/SaleOff.tsx";
+import * as $$$$$$1 from "./sections/DiscountsByCategory.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/Home.tsx";
+import * as $$$$$$4 from "./sections/SaleOff.tsx";
+import * as $$$$$$5 from "./sections/Theme.tsx";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
 const manifest = {
   "sections": {
     "deco-sites/casa/sections/BestDiscounts.tsx": $$$$$$0,
-    "deco-sites/casa/sections/DiscountsByCategory.tsx": $$$$$$2,
-    "deco-sites/casa/sections/Footer.tsx": $$$$$$4,
-    "deco-sites/casa/sections/Home.tsx": $$$$$$1,
-    "deco-sites/casa/sections/SaleOff.tsx": $$$$$$5,
-    "deco-sites/casa/sections/Theme.tsx": $$$$$$3,
+    "deco-sites/casa/sections/DiscountsByCategory.tsx": $$$$$$1,
+    "deco-sites/casa/sections/Footer.tsx": $$$$$$2,
+    "deco-sites/casa/sections/Home.tsx": $$$$$$3,
+    "deco-sites/casa/sections/SaleOff.tsx": $$$$$$4,
+    "deco-sites/casa/sections/Theme.tsx": $$$$$$5,
   },
   "apps": {
     "deco-sites/casa/apps/decohub.ts": $$$$$$$$$$$0,

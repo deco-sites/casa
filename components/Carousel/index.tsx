@@ -21,7 +21,7 @@ const Controls = () => {
           aria-label="Previous item"
         >
           <Icon
-            class="text-default-inverse text-red-600"
+            class="text-default-inverse text-yellow-400"
             size={30}
             id="ChevronLeft"
             strokeWidth={3}
@@ -35,7 +35,7 @@ const Controls = () => {
           class="h-12 w-12 -mr-12 flex items-center justify-end"
         >
           <Icon
-            class="text-default-inverse text-red-600"
+            class="text-default-inverse text-yellow-400"
             size={30}
             id="ChevronRight"
             strokeWidth={3}

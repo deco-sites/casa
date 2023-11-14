@@ -10,7 +10,7 @@ const SectionTitle = (
 ) => {
   return (
     <p class="mb-6 whitespace-nowrap text-xl sm:text-2xl flex items-center">
-      <span class="text-red-800">{symbol}</span>&nbsp;
+      <span class="text-yellow-400">{symbol}</span>&nbsp;
       <span
         class={`flex ${invertMarkedText && "flex-row-reverse"}`}
       >
