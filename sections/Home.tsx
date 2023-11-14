@@ -33,7 +33,7 @@ export default function Home({
   return (
     <section className="bg-[#171111] bg-[length:100%] bg-[url('/backgroundCasaMobile.jpg')] md:bg-[url('/backgroundCasa.jpg')] bg-top md:bg-cover min-h-screen w-full bg-no-repeat">
       <Header {...header} />
-      <div className="w-full h-full flex flex-col items-center justify-center gap-16 sm:px-[8vw]">
+      <div className="pt-14 w-full h-full flex flex-col items-center justify-center gap-16 sm:px-[8vw]">
         <div className="flex flex-col md:flex-row items-center justify-center w-full md:justify-between md:items-center">
           <div className="px-[10vw] sm:px-0">
             <BlackFridayDescription {...blackFridayDesciption} />

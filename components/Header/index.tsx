@@ -22,8 +22,8 @@ const Header = ({
         src={picture}
         alt="logo"
         title="logo"
-        width={80}
-        height={30}
+        width={200}
+        height={87}
         loading="lazy"
       />
       <button className="rounded-3xl py-1 px-6 text-white bg-white bg-opacity-50">
