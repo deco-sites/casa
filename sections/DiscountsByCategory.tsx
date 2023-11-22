@@ -34,7 +34,13 @@ export default function DiscountsByCategory({
       </div>
 
       {/* desktop design */}
-      <div className="hidden md:grid overflow-hidden md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div
+        style={{
+          gridTemplateColumns:
+            "repeat(auto-fit, minmax(min(100%/3, max(190px, 100%/5)), 1fr))",
+        }}
+        className="hidden md:grid overflow-hidden gap-4"
+      >
         {categories.map((category) => {
           return (
             <DiscountCard

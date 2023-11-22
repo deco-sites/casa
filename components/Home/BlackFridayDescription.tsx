@@ -37,10 +37,10 @@ const BlackFridayDescription = ({
   return (
     <div className="flex flex-col items-center md:items-start">
       <div>
-        <h1 className="text-[70px] leading-[80px] mb-8 md:leading-[100px] uppercase line text-white font-extrabold md:text-[120px]">
-          Black
-          <span className="font-light block translate-x-6 md:translate-x-24">
-            Friday
+        <h1 className="text-[70px] leading-[80px] mb-8 md:leading-[100px] uppercase line text-white font-extrabold md:text-[80px]">
+          A Black
+          <span className="font-light block translate-x-6 md:translate-x-24 text-[30px] md:text-[60px]">
+            + Fácil de todas!
           </span>
         </h1>
       </div>

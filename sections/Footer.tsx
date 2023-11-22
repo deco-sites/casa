@@ -68,7 +68,7 @@ export default function Footer({
         backgroundImage:
           "url('/backgroundTexture.webp'), linear-gradient(to bottom, #171111 20%, #ca8a04 100%)",
       }}
-      className="py-28 flex w-full justify-center items-center gap-8 flex-col px-[8vw]"
+      className="py-2 flex w-full justify-center items-center gap-8 flex-col px-[8vw]"
     >
       <p className="text-xl sm:text-3xl font-light text-white mb-4">
         <span class="font-bold">
@@ -85,13 +85,13 @@ export default function Footer({
       <p className="text-center text-sm font-ligh0t text-white">
         {thirdParagraph}
       </p>
-      <div className="flex flex-col gap-10 items-center md:flex-row md:gap-0 w-full justify-between mt-12">
+      <div className="flex flex-col gap-10 items-center md:flex-row md:gap-0 w-full justify-between">
         <Image
           alt="logo"
           title="logo"
           src={picture}
-          width={50}
-          height={18}
+          width={200}
+          height={87}
           loading="lazy"
         />
         <p className="text-center text-sm font-ligh0t text-white">
@@ -119,30 +119,6 @@ export default function Footer({
             <Icon
               class="text-white"
               id="Facebook"
-              height={40}
-              width={40}
-            />
-          </a>
-          <a
-            title="Twitter"
-            aria-label="Clique aqui para ir ao Twitter"
-            href={socialMediaLinks.twitterURL}
-          >
-            <Icon
-              class="text-white"
-              id="Twitter"
-              height={40}
-              width={40}
-            />
-          </a>
-          <a
-            title="Youtube"
-            aria-label="Clique aqui para ir ao Youtube"
-            href={socialMediaLinks.youtubeURL}
-          >
-            <Icon
-              class="text-white"
-              id="Youtube"
               height={40}
               width={40}
             />
