@@ -1,6 +1,6 @@
 import type { Product } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
-
+import { asset } from "$fresh/runtime.ts";
 interface Props {
   product: Product | undefined; // Certifique-se de que 'product' possa ser 'undefined'
 }
@@ -42,7 +42,7 @@ function ProductCard({ product }: Props) {
         <div className="relative mb-1">
           <Image
             style={{ aspectRatio: "500 / 500" }}
-            src={images?.[0]?.url || ""}
+            src={asset(images?.[0]?.url || "")}
             alt={product.isVariantOf?.name}
             title={product.isVariantOf?.name}
             loading="lazy"
