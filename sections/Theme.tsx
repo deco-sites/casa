@@ -447,6 +447,8 @@ function Section({
 
   return (
     <Head>
+      <title>A Black + Fácil de Todas!</title>
+
       <meta name="theme-color" content={theme["primary"]} />
       <meta name="msapplication-TileColor" content={theme["primary"]} />
       {selectedFont && !customFont?.fontFamily && (
