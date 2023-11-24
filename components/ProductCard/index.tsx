@@ -46,8 +46,8 @@ function ProductCard({ product }: Props) {
             alt={product.isVariantOf?.name}
             title={product.isVariantOf?.name}
             loading="lazy"
-            width={500}
-            height={500}
+            width={297}
+            height={297}
             className="rounded-t-md h-full object-cover" // Use 'className' em vez de 'class'
           />
         </div>
